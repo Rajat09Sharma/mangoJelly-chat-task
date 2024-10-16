@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import { useRef } from "react";
 import { useDispatch, useSelector } from "react-redux"
-import { messageAction } from "../store";
+import { messageAction } from "../store/index.js";
 
 
 export default function UserChatBox() {
