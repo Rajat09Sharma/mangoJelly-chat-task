@@ -19,7 +19,7 @@ export default function Message({ userId, message, time, name }) {
                     <span>{time}</span>
                 </div>
                 <div className='avatar mx-2'>
-                    <Avatar  classes="avatar-size" >{name.slice(0, 1).toUpperCase()}</Avatar>
+                    <Avatar>{name.slice(0, 1).toUpperCase()}</Avatar>
                 </div>
             </div>
         </div>
