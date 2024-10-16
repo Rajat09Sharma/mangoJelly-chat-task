@@ -39,7 +39,7 @@ ul {
 
 .msg-text {
     width: 90%;
-    padding: 1.5vw;
+    padding: 1vw 1.5vw;
     background-color: #1d61c2;
     border: 2px;
     border-radius: 15px;
@@ -53,6 +53,11 @@ ul {
 .avatar {
     display: flex;
     align-items: center;
+}
+
+.avatar-size{
+    width: 56px;
+    height: 56px;
 }
 
 .msg-form {
@@ -76,7 +81,7 @@ ul {
 
 @media (max-width:768px) {
     .msg-text {
-        padding: 5vw;
+        padding: 1vw 5vw;
     }
 
     .msg-row {
@@ -84,7 +89,11 @@ ul {
     }
 
     .msg-text h2 {
-        font-size: 32px;
+        font-size: 22px;
+    }
+    
+    .msg-text span {
+        font-size: xx-small;
     }
 
 }
