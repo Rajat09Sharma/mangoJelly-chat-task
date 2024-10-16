@@ -31,13 +31,8 @@ export default function UserChatBox() {
             name: "User"
         }
         // console.log(result);
-
         dispatch(messageAction.sendMessage(result))
-
-
     }
-    console.log(msgList);
-
 
     return (
         <div className="chat-box-container">
