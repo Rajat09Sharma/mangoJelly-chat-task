@@ -39,9 +39,9 @@ export default function UserChatBox() {
             <Navbar />
             <div className="chat-box px-4">
                 {
-                    msgList.map(e => {
+                    msgList.map((e,index) => {
                         return (
-                            <Message key={e.millSecond} userId={e.userId ? true : false} message={e.message} name={e.name} time={e.time} />
+                            <Message key={e.millSecond} userId={e.userId ? true : false} message={e.message} name={e.name} time={e.time} lastMsg={index==(msgList.length-1)}/>
                         )
                     })
                 }
