@@ -26,7 +26,7 @@ export default function Navbar() {
                 <Toolbar>
 
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        Mesiger
+                        Messenger
                     </Typography>
 
                     <div>
